@@ -39,6 +39,7 @@ import org.openqa.selenium.Keys as Keys
 //'pw 입력 전역변수 활용'
 //WebUI.setText(findTestObject('login/input_pw'), GlobalVariable.PW)
 //
+
 //'활성화된 로그인 버튼 선택'
 //WebUI.click(findTestObject('login/btn_login'))
 //
