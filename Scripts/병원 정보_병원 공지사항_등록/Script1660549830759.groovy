@@ -24,6 +24,7 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.maximizeWindow()
 //
 //'로그인 버튼 확인'
+
 //WebUI.verifyElementPresent(findTestObject('login/btn_trylogin'), 5)
 //
 //'로그인 버튼 선택'
