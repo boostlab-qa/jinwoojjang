@@ -41,6 +41,7 @@ import org.openqa.selenium.Keys as Keys
 //'활성화된 로그인 버튼 선택'
 //WebUI.click(findTestObject('login/btn_login'))
 //
+
 //'병드민 홈 화면 진입 확인'
 //WebUI.verifyElementPresent(findTestObject('Page_병드민/home'), 5)
 
