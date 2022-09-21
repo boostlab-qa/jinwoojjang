@@ -58,6 +58,7 @@ WebUI.click(findTestObject('notice/notice'))
 '병원정보_공지사항 등록 버튼 선택'
 WebUI.click(findTestObject('notice/btn_noticeAdd'))
 
+
 '병원정보_공지사항 등록 > 취소'
 WebUI.click(findTestObject('notice/btn_cancel'))
 

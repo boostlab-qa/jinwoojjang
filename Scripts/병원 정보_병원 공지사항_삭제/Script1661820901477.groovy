@@ -48,6 +48,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 //WebUI.click(findTestObject('login/btn_login'))
 //
 //'병드민 홈 화면 진입 확인'
+
 //WebUI.verifyElementPresent(findTestObject('Page_병드민/home'), 5)
 
 '병원정보 확인'
