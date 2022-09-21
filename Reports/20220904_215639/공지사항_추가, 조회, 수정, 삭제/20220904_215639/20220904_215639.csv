@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"공지사항_추가, 조회, 수정, 삭제",Chrome 104.0.5112.102,,,2022-09-04 21:56:45,2022-09-04 21:58:08,1m - 23.490s,FAILED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_등록,Chrome 104.0.5112.102,,,2022-09-04 21:56:45,2022-09-04 21:56:45,0.047s,SKIPPED
+Start listener action : sampleBeforeTestCase,Chrome 104.0.5112.102,,,2022-09-04 21:56:45,2022-09-04 21:56:45,0.024s,PASSED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_조회,Chrome 104.0.5112.102,,,2022-09-04 21:56:45,2022-09-04 21:57:13,27.775s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 104.0.5112.102,,,2022-09-04 21:56:45,2022-09-04 21:56:46,1.081s,PASSED
+Start setup action : 병드민로그인,Chrome 104.0.5112.102,,,2022-09-04 21:56:46,2022-09-04 21:56:59,12.869s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/hospital_info""), 5)",Chrome 104.0.5112.102,병원정보 확인,,2022-09-04 21:56:59,2022-09-04 21:57:00,0.310s,PASSED
+"click(findTestObject(""Page_병드민/hospital_info""))",Chrome 104.0.5112.102,병원정보_병원정보 진입,,2022-09-04 21:57:00,2022-09-04 21:57:01,1.398s,PASSED
+"click(findTestObject(""Page_병드민/병원 정보/병원 정보_병원 공지사항/notice""))",Chrome 104.0.5112.102,병원정보_공지사항 진입,,2022-09-04 21:57:01,2022-09-04 21:57:03,1.592s,PASSED
+"verifyElementPresent(findTestObject(""Page_공지사항/menu_txt_notice""), 5)",Chrome 104.0.5112.102,"공지사항 타이틀 문구 확인
+",,2022-09-04 21:57:03,2022-09-04 21:57:03,0.532s,PASSED
+"setText(findTestObject(""Page_공지사항/notice_input_search""), ""똑닥 진우 테스트1111"")",Chrome 104.0.5112.102,똑닥 진우 테스트 입력,,2022-09-04 21:57:03,2022-09-04 21:57:06,2.667s,PASSED
+"click(findTestObject(""Page_공지사항/notice_btn_search""))",Chrome 104.0.5112.102,"검색 버튼 선택
+",,2022-09-04 21:57:06,2022-09-04 21:57:07,1.361s,PASSED
+"verifyTextPresent(""검색어 조건 및 다른 검색어를 입력 후 검색해주세요."", false)",Chrome 104.0.5112.102,검색어 미노출 문구 확인,,2022-09-04 21:57:07,2022-09-04 21:57:08,0.527s,PASSED
+"setText(findTestObject(""Page_공지사항/notice_input_search""), ""똑닥 진우 테스트"")",Chrome 104.0.5112.102,똑닥 진우 테스트 입력,,2022-09-04 21:57:08,2022-09-04 21:57:10,2.660s,PASSED
+"click(findTestObject(""Page_공지사항/notice_btn_search""))",Chrome 104.0.5112.102,"검색 버튼 선택
+",,2022-09-04 21:57:10,2022-09-04 21:57:12,1.378s,PASSED
+"verifyTextPresent(""똑닥 진우 테스트"", false)",Chrome 104.0.5112.102,똑닥 진우 테스트 노출 확인,,2022-09-04 21:57:12,2022-09-04 21:57:12,0.514s,PASSED
+Start tear down : 브라우저종료,Chrome 104.0.5112.102,,,2022-09-04 21:57:12,2022-09-04 21:57:13,0.701s,PASSED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_수정,Chrome 104.0.5112.102,,,2022-09-04 21:57:13,2022-09-04 21:57:31,17.753s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 104.0.5112.102,,,2022-09-04 21:57:13,2022-09-04 21:57:14,1.011s,PASSED
+Start setup action : 병드민로그인,Chrome 104.0.5112.102,,,2022-09-04 21:57:14,2022-09-04 21:57:25,11.525s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/hospital_info""), 5)",Chrome 104.0.5112.102,병원정보 확인,,2022-09-04 21:57:26,2022-09-04 21:57:26,0.307s,PASSED
+"click(findTestObject(""Page_병드민/hospital_info""))",Chrome 104.0.5112.102,병원정보_병원정보 진입,,2022-09-04 21:57:26,2022-09-04 21:57:27,1.416s,PASSED
+"click(findTestObject(""Page_병드민/병원 정보/병원 정보_병원 공지사항/notice""))",Chrome 104.0.5112.102,병원정보_공지사항 진입,,2022-09-04 21:57:27,2022-09-04 21:57:29,1.614s,PASSED
+"verifyElementPresent(findTestObject(""Page_공지사항/menu_txt_notice""), 5)",Chrome 104.0.5112.102,"공지사항 타이틀 문구 확인
+",,2022-09-04 21:57:29,2022-09-04 21:57:30,0.536s,PASSED
+"verifyTextPresent(""똑닥 진우 테스트"", false)",Chrome 104.0.5112.102,똑닥 진우 테스트 노출 확인,,2022-09-04 21:57:30,2022-09-04 21:57:30,0.461s,FAILED
+Start tear down : 브라우저종료,Chrome 104.0.5112.102,,,2022-09-04 21:57:30,2022-09-04 21:57:31,0.664s,PASSED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_삭제,Chrome 104.0.5112.102,,,2022-09-04 21:57:31,2022-09-04 21:58:08,37.693s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 104.0.5112.102,,,2022-09-04 21:57:31,2022-09-04 21:57:32,1.010s,PASSED
+Start setup action : 병드민로그인,Chrome 104.0.5112.102,,,2022-09-04 21:57:32,2022-09-04 21:57:43,11.783s,PASSED
+openBrowser(URL),Chrome 104.0.5112.102,병드민 URL OPEN,,2022-09-04 21:57:44,2022-09-04 21:57:49,5.226s,PASSED
+maximizeWindow(),Chrome 104.0.5112.102,창 최대화,,2022-09-04 21:57:49,2022-09-04 21:57:49,0.132s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/main_btn_login""), 5)",Chrome 104.0.5112.102,로그인 버튼 확인,,2022-09-04 21:57:49,2022-09-04 21:57:49,0.302s,PASSED
+"click(findTestObject(""Page_로그인 화면/main_btn_login""))",Chrome 104.0.5112.102,로그인 버튼 선택,,2022-09-04 21:57:49,2022-09-04 21:57:51,1.361s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/login_input_id""), 5)",Chrome 104.0.5112.102,로그인 화면 확인,,2022-09-04 21:57:51,2022-09-04 21:57:51,0.531s,PASSED
+"setText(findTestObject(""Page_로그인 화면/login_input_id""), ID)",Chrome 104.0.5112.102,id 입력 전역변수 활용,,2022-09-04 21:57:51,2022-09-04 21:57:54,2.657s,PASSED
+"setText(findTestObject(""Page_로그인 화면/login_input_password""), PW)",Chrome 104.0.5112.102,pw 입력 전역변수 활용,,2022-09-04 21:57:54,2022-09-04 21:57:57,2.682s,PASSED
+"click(findTestObject(""Page_로그인 화면/login_btn_login""))",Chrome 104.0.5112.102,활성화된 로그인 버튼 선택,,2022-09-04 21:57:57,2022-09-04 21:57:58,1.361s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/home""), 5)",Chrome 104.0.5112.102,병드민 홈 화면 진입 확인,,2022-09-04 21:57:58,2022-09-04 21:58:00,1.714s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/hospital_info""), 5)",Chrome 104.0.5112.102,병원정보 확인,,2022-09-04 21:58:00,2022-09-04 21:58:00,0.317s,PASSED
+"click(findTestObject(""Page_병드민/hospital_info""))",Chrome 104.0.5112.102,병원정보_병원정보 진입,,2022-09-04 21:58:00,2022-09-04 21:58:01,1.410s,PASSED
+"click(findTestObject(""Page_병드민/병원 정보/병원 정보_병원 공지사항/notice""))",Chrome 104.0.5112.102,병원정보_공지사항 진입,,2022-09-04 21:58:01,2022-09-04 21:58:03,1.592s,PASSED
+driver = getWebDriver(),Chrome 104.0.5112.102,현재 행 카운트,,2022-09-04 21:58:03,2022-09-04 21:58:03,0.009s,PASSED
+"Table = driver.findElement(By.xpath(""//table/tbody""))",Chrome 104.0.5112.102,웹 테이블,,2022-09-04 21:58:03,2022-09-04 21:58:04,0.516s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 104.0.5112.102,,,2022-09-04 21:58:04,2022-09-04 21:58:04,0.270s,PASSED
+rows_count = rows_table.size(),Chrome 104.0.5112.102,,,2022-09-04 21:58:04,2022-09-04 21:58:04,0.001s,PASSED
+println(rows_count),Chrome 104.0.5112.102,,,2022-09-04 21:58:04,2022-09-04 21:58:04,0.000s,PASSED
+"click(findTestObject(""Page_공지사항/notice_btn_delete""))",Chrome 104.0.5112.102,,,2022-09-04 21:58:04,2022-09-04 21:58:05,1.356s,PASSED
+"verifyTextPresent(""공지사항을 삭제하시겠습니까?"", false)",Chrome 104.0.5112.102,공지사항 삭제 문구 확인,,2022-09-04 21:58:05,2022-09-04 21:58:06,0.521s,PASSED
+"click(findTestObject(""Page_공지사항/notice_btn_saveConfirm""))",Chrome 104.0.5112.102,알럿 팝업 확인 선택,,2022-09-04 21:58:06,2022-09-04 21:58:07,1.357s,PASSED
+"rows_tables = Table.findElements(By.tagName(""tr""))",Chrome 104.0.5112.102,,,2022-09-04 21:58:07,2022-09-04 21:58:08,0.598s,PASSED
+rows_counts = rows_tables.size(),Chrome 104.0.5112.102,,,2022-09-04 21:58:08,2022-09-04 21:58:08,0.001s,PASSED
+println(rows_counts),Chrome 104.0.5112.102,,,2022-09-04 21:58:08,2022-09-04 21:58:08,0.000s,PASSED
+"verifyEqual(rows_counts, rows_count - 1)",Chrome 104.0.5112.102,,,2022-09-04 21:58:08,2022-09-04 21:58:08,0.011s,PASSED
+Start tear down : 브라우저종료,Chrome 104.0.5112.102,,,2022-09-04 21:58:08,2022-09-04 21:58:08,0.689s,PASSED

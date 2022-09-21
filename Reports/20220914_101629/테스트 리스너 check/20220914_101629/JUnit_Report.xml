@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="테스트 리스너 check" time="29.955" tests="3" failures="0" errors="0">
+   <testsuite name="테스트 리스너 check" tests="3" failures="0" errors="0" time="29.955" skipped="2" timestamp="2022-09-14 10:16:36" hostname="bbros1 - bbros" id="Test Suites/테스트 리스너 check">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\bbros1\\Katalon Studio\\ddocdoc\\Reports\\20220914_101629\\\uD14C\uC2A4\uD2B8 \uB9AC\uC2A4\uB108 check\\20220914_101629"/>
+         <property name="logFiles" value="C:\\Users\\bbros1\\Katalon Studio\\ddocdoc\\Reports\\20220914_101629\\\uD14C\uC2A4\uD2B8 \uB9AC\uC2A4\uB108 check\\20220914_101629\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bbros1 - bbros"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="172.30.1.59"/>
+         <property name="sessionId" value="1c99c7a0621409294b3d26c8802f5a52"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/병원 정보_병원 공지사항_등록" time="0.269" classname="Test Cases/병원 정보_병원 공지사항_등록" status="SKIPPED">
+         <system-out><![CDATA[2022-09-14 10:16:37 - [TEST_CASE][SKIPPED] - Test Cases/병원 정보_병원 공지사항_등록: 
+
+2022-09-14 10:16:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-09-14 10:16:37 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseId() == "Test Cases/병원 정보_병원 공지사항_등록"): null
+
+2022-09-14 10:16:37 - [TEST_STEP][PASSED] - if (List == "real"): null
+
+2022-09-14 10:16:37 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/병원 정보_병원 공지사항_수정" time="29.422" classname="Test Cases/병원 정보_병원 공지사항_수정" status="PASSED">
+         <system-out><![CDATA[2022-09-14 10:16:37 - [TEST_CASE][PASSED] - Test Cases/병원 정보_병원 공지사항_수정: Test Cases/병원 정보_병원 공지사항_수정
+
+2022-09-14 10:16:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-09-14 10:16:37 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseId() == "Test Cases/병원 정보_병원 공지사항_등록"): null
+
+2022-09-14 10:16:37 - [TEST_STEP][PASSED] - Start setup action : 병드민로그인: Method '병드민로그인' complete successfully
+
+2022-09-14 10:16:37 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://hospital.ddocdoc.com/signin'
+
+2022-09-14 10:16:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-14 10:16:37 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2022-09-14 10:16:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hospital.ddocdoc.com/signin'
+
+2022-09-14 10:16:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-14 10:16:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-14 10:16:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/main_btn_login"), 5): Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-14 10:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-14 10:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/main_btn_login")): Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-14 10:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-14 10:16:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/login_input_id"), 5): Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-14 10:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-14 10:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_로그인 화면/login_input_id"), ID): Keys 'ddocdocProduction1' sent to object: 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-14 10:16:45 - [MESSAGE][PASSED] - Keys 'ddocdocProduction1' sent to object: 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-14 10:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_로그인 화면/login_input_password"), PW): Keys 'ddocdocProduction1' sent to object: 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-14 10:16:47 - [MESSAGE][PASSED] - Keys 'ddocdocProduction1' sent to object: 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-14 10:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/login_btn_login")): Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-14 10:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-14 10:16:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_병드민/home"), 5): Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-14 10:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-14 10:16:49 - [MESSAGE][PASSED] - Method '병드민로그인' complete successfully
+
+2022-09-14 10:16:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_병드민/hospital_info"), 5): Object 'Object Repository/Page_병드민/hospital_info' is present
+
+2022-09-14 10:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_병드민/hospital_info' is present
+
+2022-09-14 10:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_병드민/hospital_info")): Object: 'Object Repository/Page_병드민/hospital_info' is clicked on
+
+2022-09-14 10:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_병드민/hospital_info' is clicked on
+
+2022-09-14 10:16:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_병드민/병원 정보/병원 정보_병원 공지사항/notice")): Object: 'Object Repository/Page_병드민/병원 정보/병원 정보_병원 공지사항/notice' is clicked on
+
+2022-09-14 10:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_병드민/병원 정보/병원 정보_병원 공지사항/notice' is clicked on
+
+2022-09-14 10:16:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_공지사항/menu_txt_notice"), 5): Object 'Object Repository/Page_공지사항/menu_txt_notice' is present
+
+2022-09-14 10:16:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_공지사항/menu_txt_notice' is present
+
+2022-09-14 10:16:54 - [TEST_STEP][PASSED] - verifyTextPresent("똑닥 진우 테스트", false): Text '똑닥 진우 테스트' is present on page 
+
+2022-09-14 10:16:54 - [MESSAGE][PASSED] - Text '똑닥 진우 테스트' is present on page 
+
+2022-09-14 10:16:54 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_공지사항/notice_btn_edit")): Object: 'Object Repository/Page_공지사항/notice_btn_edit' is clicked on
+
+2022-09-14 10:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_공지사항/notice_btn_edit' is clicked on
+
+2022-09-14 10:16:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_공지사항/notice_btn_save"), 5): Object 'Object Repository/Page_공지사항/notice_btn_save' is present
+
+2022-09-14 10:16:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_공지사항/notice_btn_save' is present
+
+2022-09-14 10:16:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_공지사항/notice_input_title"), "똑닥 진우 테스트 수정"): Text '똑닥 진우 테스트 수정' is set on object 'Object Repository/Page_공지사항/notice_input_title'
+
+2022-09-14 10:16:58 - [MESSAGE][PASSED] - Text '똑닥 진우 테스트 수정' is set on object 'Object Repository/Page_공지사항/notice_input_title'
+
+2022-09-14 10:16:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_공지사항/notice_input_description"), "똑닥 진우 테스트 내용 수정 ~~"): Text '똑닥 진우 테스트 내용 수정 ~~' is set on object 'Object Repository/Page_공지사항/notice_input_description'
+
+2022-09-14 10:17:01 - [MESSAGE][PASSED] - Text '똑닥 진우 테스트 내용 수정 ~~' is set on object 'Object Repository/Page_공지사항/notice_input_description'
+
+2022-09-14 10:17:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_공지사항/notice_btn_save")): Object: 'Object Repository/Page_공지사항/notice_btn_save' is clicked on
+
+2022-09-14 10:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_공지사항/notice_btn_save' is clicked on
+
+2022-09-14 10:17:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_공지사항/notice_btn_saveCancel"), 5): Object 'Object Repository/Page_공지사항/notice_btn_saveCancel' is present
+
+2022-09-14 10:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_공지사항/notice_btn_saveCancel' is present
+
+2022-09-14 10:17:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_공지사항/notice_btn_saveConfirm"), 5): Object 'Object Repository/Page_공지사항/notice_btn_saveConfirm' is present
+
+2022-09-14 10:17:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_공지사항/notice_btn_saveConfirm' is present
+
+2022-09-14 10:17:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_공지사항/notice_btn_saveConfirm")): Object: 'Object Repository/Page_공지사항/notice_btn_saveConfirm' is clicked on
+
+2022-09-14 10:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_공지사항/notice_btn_saveConfirm' is clicked on
+
+2022-09-14 10:17:05 - [TEST_STEP][PASSED] - verifyTextPresent("똑닥 진우 테스트 수정", false): Text '똑닥 진우 테스트 수정' is present on page 
+
+2022-09-14 10:17:06 - [MESSAGE][PASSED] - Text '똑닥 진우 테스트 수정' is present on page 
+
+2022-09-14 10:17:06 - [TEST_STEP][PASSED] - Start tear down : 브라우저종료: Method '브라우저종료' complete successfully
+
+2022-09-14 10:17:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-14 10:17:06 - [MESSAGE][PASSED] - Browser is closed
+
+2022-09-14 10:17:06 - [MESSAGE][PASSED] - Method '브라우저종료' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/병원 정보_병원 공지사항_삭제" time="0.011" classname="Test Cases/병원 정보_병원 공지사항_삭제" status="SKIPPED">
+         <system-out><![CDATA[2022-09-14 10:17:06 - [TEST_CASE][SKIPPED] - Test Cases/병원 정보_병원 공지사항_삭제: 
+
+2022-09-14 10:17:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-09-14 10:17:06 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseId() == "Test Cases/병원 정보_병원 공지사항_등록"): null
+
+2022-09-14 10:17:06 - [TEST_STEP][PASSED] - else if (testCaseContext.getTestCaseId() == "Test Cases/병원 정보_병원 공지사항_삭제"): null
+
+2022-09-14 10:17:06 - [TEST_STEP][PASSED] - if (List == "real"): null
+
+2022-09-14 10:17:06 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-14 10:16:36 - [TEST_SUITE][PASSED] - 테스트 리스너 check:]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

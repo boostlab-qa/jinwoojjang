@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>병원 정보_병원 공지사항_조회(4차 예제)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c623b727-f4f8-4ef1-80e5-2ba0d5daba2c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>병원 정보_병원 공지사항_삭제</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed242ce2-6b29-4343-96bb-d1c86de86de2</testCaseGuid>
+</TestCaseEntity>

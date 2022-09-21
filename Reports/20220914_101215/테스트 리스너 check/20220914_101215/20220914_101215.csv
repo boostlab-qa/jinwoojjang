@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+테스트 리스너 check,,,,2022-09-14 10:12:23,2022-09-14 10:12:24,1.078s,FAILED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_등록,,,,2022-09-14 10:12:23,2022-09-14 10:12:23,0.213s,SKIPPED
+Start listener action : sampleBeforeTestCase,,,,2022-09-14 10:12:23,2022-09-14 10:12:23,0.194s,PASSED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_수정,,,,2022-09-14 10:12:23,2022-09-14 10:12:24,0.634s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-09-14 10:12:23,2022-09-14 10:12:23,0.001s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/hospital_info""), 5)",,병원정보 확인,,2022-09-14 10:12:24,2022-09-14 10:12:24,0.298s,FAILED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_삭제,,,,2022-09-14 10:12:24,2022-09-14 10:12:24,0.010s,SKIPPED
+Start listener action : sampleBeforeTestCase,,,,2022-09-14 10:12:24,2022-09-14 10:12:24,0.003s,PASSED

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="공지사항_추가, 조회, 수정, 삭제" time="83.49" tests="4" failures="1" errors="0">
+   <testsuite name="공지사항_추가, 조회, 수정, 삭제" tests="4" failures="1" errors="0" time="83.49" skipped="1" timestamp="2022-09-04 21:56:45" hostname="bbros1 - bbros" id="Test Suites/공지사항_추가, 조회, 수정, 삭제">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\bbros1\\Katalon Studio\\ddocdoc\\Reports\\20220904_215639\\\uACF5\uC9C0\uC0AC\uD56D_\uCD94\uAC00, \uC870\uD68C, \uC218\uC815, \uC0AD\uC81C\\20220904_215639"/>
+         <property name="logFiles" value="C:\\Users\\bbros1\\Katalon Studio\\ddocdoc\\Reports\\20220904_215639\\\uACF5\uC9C0\uC0AC\uD56D_\uCD94\uAC00, \uC870\uD68C, \uC218\uC815, \uC0AD\uC81C\\20220904_215639\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\bbros1\\Katalon Studio\\ddocdoc\\Reports\\20220904_215639\\\uACF5\uC9C0\uC0AC\uD56D_\uCD94\uAC00, \uC870\uD68C, \uC218\uC815, \uC0AD\uC81C\\20220904_215639\\1662296250396.png"/>
+         <property name="hostName" value="bbros1 - bbros"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 104.0.5112.102"/>
+         <property name="hostAddress" value="172.30.1.59"/>
+         <property name="sessionId" value="43d7c8163f07356435aa1622d03892a4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/병원 정보_병원 공지사항_등록" time="0.047" classname="Test Cases/병원 정보_병원 공지사항_등록" status="SKIPPED">
+         <system-out><![CDATA[2022-09-04 21:56:45 - [TEST_CASE][SKIPPED] - Test Cases/병원 정보_병원 공지사항_등록: 
+
+2022-09-04 21:56:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-09-04 21:56:45 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseId() == "Test Cases/병원 정보_병원 공지사항_등록"): null
+
+2022-09-04 21:56:45 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/병원 정보_병원 공지사항_조회" time="27.775" classname="Test Cases/병원 정보_병원 공지사항_조회" status="PASSED">
+         <system-out><![CDATA[2022-09-04 21:56:45 - [TEST_CASE][PASSED] - Test Cases/병원 정보_병원 공지사항_조회: Test Cases/병원 정보_병원 공지사항_조회
+
+2022-09-04 21:56:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Delayed 1 second(s)
+
+2022-09-04 21:56:45 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseId() == "Test Cases/병원 정보_병원 공지사항_등록"): null
+
+2022-09-04 21:56:45 - [TEST_STEP][PASSED] - else: Delayed 1 second(s)
+
+2022-09-04 21:56:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-09-04 21:56:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-09-04 21:56:46 - [TEST_STEP][PASSED] - Start setup action : 병드민로그인: Method '병드민로그인' complete successfully
+
+2022-09-04 21:56:46 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://testhospital.ddocdoc.com/signin'
+
+2022-09-04 21:56:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-04 21:56:47 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2022-09-04 21:56:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testhospital.ddocdoc.com/signin'
+
+2022-09-04 21:56:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-04 21:56:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-04 21:56:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/main_btn_login"), 5): Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-04 21:56:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-04 21:56:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/main_btn_login")): Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-04 21:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-04 21:56:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/login_input_id"), 5): Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-04 21:56:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-04 21:56:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_로그인 화면/login_input_id"), ID): Keys 'test1234' sent to object: 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-04 21:56:55 - [MESSAGE][PASSED] - Keys 'test1234' sent to object: 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-04 21:56:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_로그인 화면/login_input_password"), PW): Keys 'test1234!' sent to object: 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-04 21:56:56 - [MESSAGE][PASSED] - Keys 'test1234!' sent to object: 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-04 21:56:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/login_btn_login")): Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-04 21:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-04 21:56:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_병드민/home"), 5): Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-04 21:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-04 21:56:59 - [MESSAGE][PASSED] - Method '병드민로그인' complete successfully
+
+2022-09-04 21:56:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_병드민/hospital_info"), 5): Object 'Object Repository/Page_병드민/hospital_info' is present
+
+2022-09-04 21:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_병드민/hospital_info' is present
+
+2022-09-04 21:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_병드민/hospital_info")): Object: 'Object Repository/Page_병드민/hospital_info' is clicked on
+
+2022-09-04 21:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_병드민/hospital_info' is clicked on
+
+2022-09-04 21:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_병드민/병원 정보/병원 정보_병원 공지사항/notice")): Object: 'Object Repository/Page_병드민/병원 정보/병원 정보_병원 공지사항/notice' is clicked on
+
+2022-09-04 21:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_병드민/병원 정보/병원 정보_병원 공지사항/notice' is clicked on
+
+2022-09-04 21:57:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_공지사항/menu_txt_notice"), 5): Object 'Object Repository/Page_공지사항/menu_txt_notice' is present
+
+2022-09-04 21:57:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_공지사항/menu_txt_notice' is present
+
+2022-09-04 21:57:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_공지사항/notice_input_search"), "똑닥 진우 테스트1111"): Text '똑닥 진우 테스트1111' is set on object 'Object Repository/Page_공지사항/notice_input_search'
+
+2022-09-04 21:57:06 - [MESSAGE][PASSED] - Text '똑닥 진우 테스트1111' is set on object 'Object Repository/Page_공지사항/notice_input_search'
+
+2022-09-04 21:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_공지사항/notice_btn_search")): Object: 'Object Repository/Page_공지사항/notice_btn_search' is clicked on
+
+2022-09-04 21:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_공지사항/notice_btn_search' is clicked on
+
+2022-09-04 21:57:07 - [TEST_STEP][PASSED] - verifyTextPresent("검색어 조건 및 다른 검색어를 입력 후 검색해주세요.", false): Text '검색어 조건 및 다른 검색어를 입력 후 검색해주세요.' is present on page 
+
+2022-09-04 21:57:08 - [MESSAGE][PASSED] - Text '검색어 조건 및 다른 검색어를 입력 후 검색해주세요.' is present on page 
+
+2022-09-04 21:57:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_공지사항/notice_input_search"), "똑닥 진우 테스트"): Text '똑닥 진우 테스트' is set on object 'Object Repository/Page_공지사항/notice_input_search'
+
+2022-09-04 21:57:10 - [MESSAGE][PASSED] - Text '똑닥 진우 테스트' is set on object 'Object Repository/Page_공지사항/notice_input_search'
+
+2022-09-04 21:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_공지사항/notice_btn_search")): Object: 'Object Repository/Page_공지사항/notice_btn_search' is clicked on
+
+2022-09-04 21:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_공지사항/notice_btn_search' is clicked on
+
+2022-09-04 21:57:12 - [TEST_STEP][PASSED] - verifyTextPresent("똑닥 진우 테스트", false): Text '똑닥 진우 테스트' is present on page 
+
+2022-09-04 21:57:12 - [MESSAGE][PASSED] - Text '똑닥 진우 테스트' is present on page 
+
+2022-09-04 21:57:12 - [TEST_STEP][PASSED] - Start tear down : 브라우저종료: Method '브라우저종료' complete successfully
+
+2022-09-04 21:57:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-04 21:57:13 - [MESSAGE][PASSED] - Browser is closed
+
+2022-09-04 21:57:13 - [MESSAGE][PASSED] - Method '브라우저종료' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/병원 정보_병원 공지사항_수정" time="17.753" classname="Test Cases/병원 정보_병원 공지사항_수정" status="FAILED">
+         <failure type="FAILED" message="Test Cases/병원 정보_병원 공지사항_수정 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '똑닥 진우 테스트' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at 병원 정보_병원 공지사항_수정.run(병원 정보_병원 공지사항_수정:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662296199888.run(TempTestSuite1662296199888.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '똑닥 진우 테스트' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-09-04 21:57:13 - [TEST_CASE][FAILED] - Test Cases/병원 정보_병원 공지사항_수정: Test Cases/병원 정보_병원 공지사항_수정 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '똑닥 진우 테스트' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at 병원 정보_병원 공지사항_수정.run(병원 정보_병원 공지사항_수정:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662296199888.run(TempTestSuite1662296199888.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '똑닥 진우 테스트' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-09-04 21:57:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Delayed 1 second(s)
+
+2022-09-04 21:57:13 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseId() == "Test Cases/병원 정보_병원 공지사항_등록"): null
+
+2022-09-04 21:57:13 - [TEST_STEP][PASSED] - else: Delayed 1 second(s)
+
+2022-09-04 21:57:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-09-04 21:57:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-09-04 21:57:14 - [TEST_STEP][PASSED] - Start setup action : 병드민로그인: Method '병드민로그인' complete successfully
+
+2022-09-04 21:57:14 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://testhospital.ddocdoc.com/signin'
+
+2022-09-04 21:57:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-04 21:57:14 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2022-09-04 21:57:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testhospital.ddocdoc.com/signin'
+
+2022-09-04 21:57:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-04 21:57:18 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-04 21:57:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/main_btn_login"), 5): Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-04 21:57:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-04 21:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/main_btn_login")): Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-04 21:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-04 21:57:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/login_input_id"), 5): Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-04 21:57:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-04 21:57:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_로그인 화면/login_input_id"), ID): Keys 'test1234' sent to object: 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-04 21:57:22 - [MESSAGE][PASSED] - Keys 'test1234' sent to object: 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-04 21:57:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_로그인 화면/login_input_password"), PW): Keys 'test1234!' sent to object: 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-04 21:57:23 - [MESSAGE][PASSED] - Keys 'test1234!' sent to object: 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-04 21:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/login_btn_login")): Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-04 21:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-04 21:57:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_병드민/home"), 5): Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-04 21:57:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-04 21:57:25 - [MESSAGE][PASSED] - Method '병드민로그인' complete successfully
+
+2022-09-04 21:57:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_병드민/hospital_info"), 5): Object 'Object Repository/Page_병드민/hospital_info' is present
+
+2022-09-04 21:57:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_병드민/hospital_info' is present
+
+2022-09-04 21:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_병드민/hospital_info")): Object: 'Object Repository/Page_병드민/hospital_info' is clicked on
+
+2022-09-04 21:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_병드민/hospital_info' is clicked on
+
+2022-09-04 21:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_병드민/병원 정보/병원 정보_병원 공지사항/notice")): Object: 'Object Repository/Page_병드민/병원 정보/병원 정보_병원 공지사항/notice' is clicked on
+
+2022-09-04 21:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_병드민/병원 정보/병원 정보_병원 공지사항/notice' is clicked on
+
+2022-09-04 21:57:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_공지사항/menu_txt_notice"), 5): Object 'Object Repository/Page_공지사항/menu_txt_notice' is present
+
+2022-09-04 21:57:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_공지사항/menu_txt_notice' is present
+
+2022-09-04 21:57:30 - [TEST_STEP][FAILED] - verifyTextPresent("똑닥 진우 테스트", false): Unable to verify text '똑닥 진우 테스트' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text '똑닥 진우 테스트' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at 병원 정보_병원 공지사항_수정.run(병원 정보_병원 공지사항_수정:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662296199888.run(TempTestSuite1662296199888.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '똑닥 진우 테스트' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2022-09-04 21:57:30 - [MESSAGE][FAILED] - Text '똑닥 진우 테스트' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '똑닥 진우 테스트' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at 병원 정보_병원 공지사항_수정.run(병원 정보_병원 공지사항_수정:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662296199888.run(TempTestSuite1662296199888.groovy:36)
+)
+
+2022-09-04 21:57:30 - [MESSAGE][FAILED] - Unable to verify text '똑닥 진우 테스트' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text '똑닥 진우 테스트' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at 병원 정보_병원 공지사항_수정.run(병원 정보_병원 공지사항_수정:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662296199888.run(TempTestSuite1662296199888.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '똑닥 진우 테스트' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\bbros1\\Katalon Studio\\ddocdoc\\Reports\\20220904_215639\\\uACF5\uC9C0\uC0AC\uD56D_\uCD94\uAC00, \uC870\uD68C, \uC218\uC815, \uC0AD\uC81C\\20220904_215639\\1662296250396.png]]
+
+2022-09-04 21:57:30 - [TEST_STEP][PASSED] - Start tear down : 브라우저종료: Method '브라우저종료' complete successfully
+
+2022-09-04 21:57:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-04 21:57:31 - [MESSAGE][PASSED] - Browser is closed
+
+2022-09-04 21:57:31 - [MESSAGE][PASSED] - Method '브라우저종료' complete successfully]]></system-out>
+         <system-err><![CDATA[2022-09-04 21:57:13 - [TEST_CASE][FAILED] - Test Cases/병원 정보_병원 공지사항_수정: Test Cases/병원 정보_병원 공지사항_수정 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '똑닥 진우 테스트' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at 병원 정보_병원 공지사항_수정.run(병원 정보_병원 공지사항_수정:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662296199888.run(TempTestSuite1662296199888.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '똑닥 진우 테스트' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/병원 정보_병원 공지사항_삭제" time="37.693" classname="Test Cases/병원 정보_병원 공지사항_삭제" status="PASSED">
+         <system-out><![CDATA[2022-09-04 21:57:31 - [TEST_CASE][PASSED] - Test Cases/병원 정보_병원 공지사항_삭제: Test Cases/병원 정보_병원 공지사항_삭제
+
+2022-09-04 21:57:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Delayed 1 second(s)
+
+2022-09-04 21:57:31 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseId() == "Test Cases/병원 정보_병원 공지사항_등록"): null
+
+2022-09-04 21:57:31 - [TEST_STEP][PASSED] - else: Delayed 1 second(s)
+
+2022-09-04 21:57:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-09-04 21:57:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-09-04 21:57:32 - [TEST_STEP][PASSED] - Start setup action : 병드민로그인: Method '병드민로그인' complete successfully
+
+2022-09-04 21:57:32 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://testhospital.ddocdoc.com/signin'
+
+2022-09-04 21:57:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-04 21:57:32 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2022-09-04 21:57:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testhospital.ddocdoc.com/signin'
+
+2022-09-04 21:57:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-04 21:57:36 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-04 21:57:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/main_btn_login"), 5): Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-04 21:57:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-04 21:57:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/main_btn_login")): Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-04 21:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-04 21:57:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/login_input_id"), 5): Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-04 21:57:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-04 21:57:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_로그인 화면/login_input_id"), ID): Keys 'test1234' sent to object: 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-04 21:57:39 - [MESSAGE][PASSED] - Keys 'test1234' sent to object: 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-04 21:57:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_로그인 화면/login_input_password"), PW): Keys 'test1234!' sent to object: 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-04 21:57:41 - [MESSAGE][PASSED] - Keys 'test1234!' sent to object: 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-04 21:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/login_btn_login")): Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-04 21:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-04 21:57:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_병드민/home"), 5): Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-04 21:57:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-04 21:57:43 - [MESSAGE][PASSED] - Method '병드민로그인' complete successfully
+
+2022-09-04 21:57:44 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://testhospital.ddocdoc.com/signin'
+
+2022-09-04 21:57:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-04 21:57:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-04 21:57:44 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2022-09-04 21:57:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testhospital.ddocdoc.com/signin'
+
+2022-09-04 21:57:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-04 21:57:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-04 21:57:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/main_btn_login"), 5): Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-04 21:57:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/main_btn_login' is present
+
+2022-09-04 21:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/main_btn_login")): Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-04 21:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/main_btn_login' is clicked on
+
+2022-09-04 21:57:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_로그인 화면/login_input_id"), 5): Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-04 21:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_로그인 화면/login_input_id' is present
+
+2022-09-04 21:57:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_로그인 화면/login_input_id"), ID): Text 'test1234' is set on object 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-04 21:57:54 - [MESSAGE][PASSED] - Text 'test1234' is set on object 'Object Repository/Page_로그인 화면/login_input_id'
+
+2022-09-04 21:57:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_로그인 화면/login_input_password"), PW): Text 'test1234!' is set on object 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-04 21:57:57 - [MESSAGE][PASSED] - Text 'test1234!' is set on object 'Object Repository/Page_로그인 화면/login_input_password'
+
+2022-09-04 21:57:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_로그인 화면/login_btn_login")): Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-04 21:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_로그인 화면/login_btn_login' is clicked on
+
+2022-09-04 21:57:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_병드민/home"), 5): Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-04 21:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_병드민/home' is present
+
+2022-09-04 21:58:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_병드민/hospital_info"), 5): Object 'Object Repository/Page_병드민/hospital_info' is present
+
+2022-09-04 21:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_병드민/hospital_info' is present
+
+2022-09-04 21:58:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_병드민/hospital_info")): Object: 'Object Repository/Page_병드민/hospital_info' is clicked on
+
+2022-09-04 21:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_병드민/hospital_info' is clicked on
+
+2022-09-04 21:58:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_병드민/병원 정보/병원 정보_병원 공지사항/notice")): Object: 'Object Repository/Page_병드민/병원 정보/병원 정보_병원 공지사항/notice' is clicked on
+
+2022-09-04 21:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_병드민/병원 정보/병원 정보_병원 공지사항/notice' is clicked on
+
+2022-09-04 21:58:03 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2022-09-04 21:58:03 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//table/tbody")): null
+
+2022-09-04 21:58:04 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2022-09-04 21:58:04 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2022-09-04 21:58:04 - [TEST_STEP][PASSED] - println(rows_count): null
+
+2022-09-04 21:58:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_공지사항/notice_btn_delete")): Object: 'Object Repository/Page_공지사항/notice_btn_delete' is clicked on
+
+2022-09-04 21:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_공지사항/notice_btn_delete' is clicked on
+
+2022-09-04 21:58:05 - [TEST_STEP][PASSED] - verifyTextPresent("공지사항을 삭제하시겠습니까?", false): Text '공지사항을 삭제하시겠습니까?' is present on page 
+
+2022-09-04 21:58:06 - [MESSAGE][PASSED] - Text '공지사항을 삭제하시겠습니까?' is present on page 
+
+2022-09-04 21:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_공지사항/notice_btn_saveConfirm")): Object: 'Object Repository/Page_공지사항/notice_btn_saveConfirm' is clicked on
+
+2022-09-04 21:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_공지사항/notice_btn_saveConfirm' is clicked on
+
+2022-09-04 21:58:07 - [TEST_STEP][PASSED] - rows_tables = Table.findElements(By.tagName("tr")): null
+
+2022-09-04 21:58:08 - [TEST_STEP][PASSED] - rows_counts = rows_tables.size(): null
+
+2022-09-04 21:58:08 - [TEST_STEP][PASSED] - println(rows_counts): null
+
+2022-09-04 21:58:08 - [TEST_STEP][PASSED] - verifyEqual(rows_counts, rows_count - 1): Actual object '6' and expected object '6' are equal
+
+2022-09-04 21:58:08 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+2022-09-04 21:58:08 - [TEST_STEP][PASSED] - Start tear down : 브라우저종료: Method '브라우저종료' complete successfully
+
+2022-09-04 21:58:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-04 21:58:08 - [MESSAGE][PASSED] - Browser is closed
+
+2022-09-04 21:58:08 - [MESSAGE][PASSED] - Method '브라우저종료' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-04 21:56:45 - [TEST_SUITE][FAILED] - 공지사항_추가, 조회, 수정, 삭제: Test Cases/병원 정보_병원 공지사항_수정 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '똑닥 진우 테스트' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at 병원 정보_병원 공지사항_수정.run(병원 정보_병원 공지사항_수정:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662296199888.run(TempTestSuite1662296199888.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '똑닥 진우 테스트' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-09-04 21:56:45 - [TEST_SUITE][FAILED] - 공지사항_추가, 조회, 수정, 삭제: Test Cases/병원 정보_병원 공지사항_수정 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '똑닥 진우 테스트' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at 병원 정보_병원 공지사항_수정.run(병원 정보_병원 공지사항_수정:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662296199888.run(TempTestSuite1662296199888.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '똑닥 진우 테스트' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

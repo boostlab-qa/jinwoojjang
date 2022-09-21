@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"공지사항_추가, 조회, 수정, 삭제",,,,2022-08-19 14:29:05,2022-08-19 14:29:07,2.264s,FAILED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_등록,,,,2022-08-19 14:29:05,2022-08-19 14:29:06,0.793s,FAILED
+"verifyElementPresent(findTestObject(""Page_병드민/span_병원정보""), 5)",,병원정보 확인,,2022-08-19 14:29:06,2022-08-19 14:29:06,0.394s,FAILED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_조회,,,,2022-08-19 14:29:06,2022-08-19 14:29:06,0.444s,FAILED
+"verifyElementPresent(findTestObject(""Page_병드민/span_병원정보""), 5)",,병원정보 확인,,2022-08-19 14:29:06,2022-08-19 14:29:06,0.079s,FAILED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_수정,,,,2022-08-19 14:29:06,2022-08-19 14:29:07,0.342s,FAILED
+"verifyElementPresent(findTestObject(""Page_병드민/span_병원정보""), 5)",,병원정보 확인,,2022-08-19 14:29:07,2022-08-19 14:29:07,0.055s,FAILED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_삭제,,,,2022-08-19 14:29:07,2022-08-19 14:29:07,0.312s,FAILED
+"verifyElementPresent(findTestObject(""Page_병드민/span_병원정보""), 5)",,병원정보 확인,,2022-08-19 14:29:07,2022-08-19 14:29:07,0.056s,FAILED

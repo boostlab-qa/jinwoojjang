@@ -1,0 +1,108 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"공지사항_추가, 조회, 수정, 삭제",Chrome 103.0.5060.134,,,2022-08-16 02:27:27,2022-08-16 02:29:03,1m - 35.996s,PASSED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_등록,Chrome 103.0.5060.134,,,2022-08-16 02:27:27,2022-08-16 02:27:59,31.661s,PASSED
+openBrowser(URL),Chrome 103.0.5060.134,병드민 URL OPEN,,2022-08-16 02:27:28,2022-08-16 02:27:32,4.514s,PASSED
+maximizeWindow(),Chrome 103.0.5060.134,창 최대화,,2022-08-16 02:27:32,2022-08-16 02:27:32,0.161s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/button_login""), 5)",Chrome 103.0.5060.134,로그인 버튼 확인,,2022-08-16 02:27:32,2022-08-16 02:27:33,0.401s,PASSED
+"click(findTestObject(""Page_로그인 화면/button_login""))",Chrome 103.0.5060.134,로그인 버튼 선택,,2022-08-16 02:27:33,2022-08-16 02:27:34,0.905s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/input__id input""), 5)",Chrome 103.0.5060.134,로그인 화면 확인,,2022-08-16 02:27:34,2022-08-16 02:27:34,0.536s,PASSED
+"sendKeys(findTestObject(""Page_로그인 화면/input__id input""), ID)",Chrome 103.0.5060.134,id 입력 전역변수 활용,,2022-08-16 02:27:34,2022-08-16 02:27:35,0.916s,PASSED
+"sendKeys(findTestObject(""Page_로그인 화면/input__pw inpuut""), PW)",Chrome 103.0.5060.134,pw 입력 전역변수 활용,,2022-08-16 02:27:35,2022-08-16 02:27:36,0.989s,PASSED
+"click(findTestObject(""Page_로그인 화면/button_로그인 활성화""))",Chrome 103.0.5060.134,활성화된 로그인 버튼 선택,,2022-08-16 02:27:36,2022-08-16 02:27:37,1.005s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/span_홈""), 5)",Chrome 103.0.5060.134,병드민 홈 화면 진입 확인,,2022-08-16 02:27:37,2022-08-16 02:27:39,1.527s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/span_병원정보""), 5)",Chrome 103.0.5060.134,병원정보 확인,,2022-08-16 02:27:39,2022-08-16 02:27:39,0.461s,PASSED
+"click(findTestObject(""Page_병드민/span_병원정보""))",Chrome 103.0.5060.134,병원정보_병원정보 진입,,2022-08-16 02:27:39,2022-08-16 02:27:40,1.139s,PASSED
+"click(findTestObject(""Page_병드민/병원 정보/병원 정보_병원 공지사항/span_병원 공지사항""))",Chrome 103.0.5060.134,병원정보_공지사항 진입,,2022-08-16 02:27:40,2022-08-16 02:27:41,1.181s,PASSED
+"click(findTestObject(""Page_/span_공지사항 등록 버튼""))",Chrome 103.0.5060.134,병원정보_공지사항 등록 버튼 선택,,2022-08-16 02:27:41,2022-08-16 02:27:42,1.070s,PASSED
+"click(findTestObject(""Page_/button_공지사항 등록_취소""))",Chrome 103.0.5060.134,병원정보_공지사항 등록 > 취소,,2022-08-16 02:27:42,2022-08-16 02:27:43,1.076s,PASSED
+"verifyElementPresent(findTestObject(""Page_/span_공지사항 등록 버튼""), 5)",Chrome 103.0.5060.134,병원정보_공지사항 등록 버튼 확인,,2022-08-16 02:27:43,2022-08-16 02:27:44,0.421s,PASSED
+"click(findTestObject(""Page_/span_공지사항 등록 버튼""))",Chrome 103.0.5060.134,병원정보_공지사항 등록 버튼 선택,,2022-08-16 02:27:44,2022-08-16 02:27:45,1.043s,PASSED
+"click(findTestObject(""Page_/button_공지사항 등록_저장""))",Chrome 103.0.5060.134,병원정보_공지사항 등록 버튼 > 저장 버튼 선택,,2022-08-16 02:27:45,2022-08-16 02:27:46,1.052s,PASSED
+"verifyElementPresent(findTestObject(""Page_/pre_내용을 입력해주세요""), 0)",Chrome 103.0.5060.134,병원정보_공지사항 저장 버튼 알럿 문구,,2022-08-16 02:27:46,2022-08-16 02:27:47,0.529s,PASSED
+"click(findTestObject(""Page_/button_저장1 알럿팝업 확인""))",Chrome 103.0.5060.134,병원정보_공지사항 저장 알럿 문구 > 확인,,2022-08-16 02:27:47,2022-08-16 02:27:48,1.024s,PASSED
+"verifyElementPresent(findTestObject(""Page_/h1_공지사항 타이틀 문구""), 5)",Chrome 103.0.5060.134,공지사항 타이틀 문구 확인,,2022-08-16 02:27:48,2022-08-16 02:27:48,0.455s,PASSED
+"setText(findTestObject(""Page_/input__공지사항 제목 입력""), ""똑닥 진우 테스트"")",Chrome 103.0.5060.134,공지사항 제목 입력,,2022-08-16 02:27:48,2022-08-16 02:27:50,1.952s,PASSED
+"setText(findTestObject(""Page_/textarea_공지사항 내용 입력""), ""똑닥 진우 테스트 내용 ~~"")",Chrome 103.0.5060.134,공지사항 내용 입력,,2022-08-16 02:27:50,2022-08-16 02:27:52,1.915s,PASSED
+"click(findTestObject(""Page_/button_공지사항 등록_저장""))",Chrome 103.0.5060.134,공지사항 등록_저장,,2022-08-16 02:27:52,2022-08-16 02:27:53,1.102s,PASSED
+"verifyElementPresent(findTestObject(""Page_/pre_공지사항을 등록하시겠습니까""), 5)",Chrome 103.0.5060.134,공지사항을 등록하시겠습니까? 팝업 문구 확인,,2022-08-16 02:27:53,2022-08-16 02:27:53,0.429s,PASSED
+"verifyElementPresent(findTestObject(""Page_/button_저장2 알럿팝업 취소""), 5)",Chrome 103.0.5060.134,공지사항 등록 알럿 팝업 취소 확인,,2022-08-16 02:27:53,2022-08-16 02:27:54,0.441s,PASSED
+"click(findTestObject(""Page_/button_저장2 알럿팝업 취소""))",Chrome 103.0.5060.134,공지사항 등록 알럿 팝업 취소 선택,,2022-08-16 02:27:54,2022-08-16 02:27:55,1.017s,PASSED
+"click(findTestObject(""Page_/button_공지사항 등록_저장""))",Chrome 103.0.5060.134,공지사항 등록 저장 선택,,2022-08-16 02:27:55,2022-08-16 02:27:56,1.006s,PASSED
+"verifyElementPresent(findTestObject(""Page_/button_저장2 알럿팝업 확인""), 5)",Chrome 103.0.5060.134,공지사항 알럿 팝업 저장 버튼 확인,,2022-08-16 02:27:56,2022-08-16 02:27:56,0.437s,PASSED
+"click(findTestObject(""Page_/button_저장2 알럿팝업 확인""), STOP_ON_FAILURE)",Chrome 103.0.5060.134,공지사항 알럿 팝업 저장 버튼 선택,,2022-08-16 02:27:56,2022-08-16 02:27:57,1.031s,PASSED
+"verifyTextPresent(""똑닥 진우 테스트"", false)",Chrome 103.0.5060.134,공지사항 리스트 등록 확인,,2022-08-16 02:27:57,2022-08-16 02:27:58,0.617s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,브라우저 닫기,,2022-08-16 02:27:58,2022-08-16 02:27:59,0.935s,PASSED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_조회,Chrome 103.0.5060.134,,,2022-08-16 02:27:59,2022-08-16 02:28:20,21.394s,PASSED
+openBrowser(URL),Chrome 103.0.5060.134,병드민 URL OPEN,,2022-08-16 02:28:00,2022-08-16 02:28:03,3.566s,PASSED
+maximizeWindow(),Chrome 103.0.5060.134,창 최대화,,2022-08-16 02:28:03,2022-08-16 02:28:04,0.150s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/button_login""), 5)",Chrome 103.0.5060.134,로그인 버튼 확인,,2022-08-16 02:28:04,2022-08-16 02:28:04,0.355s,PASSED
+"click(findTestObject(""Page_로그인 화면/button_login""))",Chrome 103.0.5060.134,로그인 버튼 선택,,2022-08-16 02:28:04,2022-08-16 02:28:05,0.891s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/input__id input""), 5)",Chrome 103.0.5060.134,로그인 화면 확인,,2022-08-16 02:28:05,2022-08-16 02:28:05,0.450s,PASSED
+"sendKeys(findTestObject(""Page_로그인 화면/input__id input""), ID)",Chrome 103.0.5060.134,id 입력 전역변수 활용,,2022-08-16 02:28:05,2022-08-16 02:28:06,0.877s,PASSED
+"sendKeys(findTestObject(""Page_로그인 화면/input__pw inpuut""), PW)",Chrome 103.0.5060.134,pw 입력 전역변수 활용,,2022-08-16 02:28:06,2022-08-16 02:28:07,0.887s,PASSED
+"click(findTestObject(""Page_로그인 화면/button_로그인 활성화""))",Chrome 103.0.5060.134,활성화된 로그인 버튼 선택,,2022-08-16 02:28:07,2022-08-16 02:28:08,0.885s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/span_홈""), 5)",Chrome 103.0.5060.134,병드민 홈 화면 진입 확인,,2022-08-16 02:28:08,2022-08-16 02:28:09,1.340s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/span_병원정보""), 5)",Chrome 103.0.5060.134,병원정보 확인,,2022-08-16 02:28:09,2022-08-16 02:28:10,0.374s,PASSED
+"click(findTestObject(""Page_병드민/span_병원정보""))",Chrome 103.0.5060.134,병원정보_병원정보 진입,,2022-08-16 02:28:10,2022-08-16 02:28:11,0.986s,PASSED
+"click(findTestObject(""Page_병드민/병원 정보/병원 정보_병원 공지사항/span_병원 공지사항""))",Chrome 103.0.5060.134,병원정보_공지사항 진입,,2022-08-16 02:28:11,2022-08-16 02:28:12,1.196s,PASSED
+"verifyElementPresent(findTestObject(""Page_/h1_공지사항 타이틀 문구""), 5)",Chrome 103.0.5060.134,"공지사항 타이틀 문구 확인
+",,2022-08-16 02:28:12,2022-08-16 02:28:12,0.581s,PASSED
+"setText(findTestObject(""Page_/input__검색어 입력""), ""똑닥 진우 테스트1111"")",Chrome 103.0.5060.134,똑닥 진우 테스트 입력,,2022-08-16 02:28:12,2022-08-16 02:28:14,1.817s,PASSED
+"click(findTestObject(""Page_/button_검색""))",Chrome 103.0.5060.134,"검색 버튼 선택
+",,2022-08-16 02:28:14,2022-08-16 02:28:15,1.017s,PASSED
+"verifyTextPresent(""검색어 조건 및 다른 검색어를 입력 후 검색해주세요."", false)",Chrome 103.0.5060.134,검색어 미노출 문구 확인,,2022-08-16 02:28:15,2022-08-16 02:28:16,0.593s,PASSED
+"setText(findTestObject(""Page_/input__검색어 입력""), ""똑닥 진우 테스트"")",Chrome 103.0.5060.134,똑닥 진우 테스트 입력,,2022-08-16 02:28:16,2022-08-16 02:28:18,1.880s,PASSED
+"click(findTestObject(""Page_/button_검색""))",Chrome 103.0.5060.134,"검색 버튼 선택
+",,2022-08-16 02:28:18,2022-08-16 02:28:19,1.013s,PASSED
+"verifyTextPresent(""똑닥 진우 테스트"", false)",Chrome 103.0.5060.134,똑닥 진우 테스트 노출 확인,,2022-08-16 02:28:19,2022-08-16 02:28:19,0.591s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,브라우저 닫기,,2022-08-16 02:28:19,2022-08-16 02:28:20,0.916s,PASSED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_수정,Chrome 103.0.5060.134,,,2022-08-16 02:28:20,2022-08-16 02:28:44,23.661s,PASSED
+openBrowser(URL),Chrome 103.0.5060.134,병드민 URL OPEN,,2022-08-16 02:28:21,2022-08-16 02:28:25,3.273s,PASSED
+maximizeWindow(),Chrome 103.0.5060.134,창 최대화,,2022-08-16 02:28:25,2022-08-16 02:28:25,0.135s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/button_login""), 5)",Chrome 103.0.5060.134,로그인 버튼 확인,,2022-08-16 02:28:25,2022-08-16 02:28:25,0.339s,PASSED
+"click(findTestObject(""Page_로그인 화면/button_login""))",Chrome 103.0.5060.134,로그인 버튼 선택,,2022-08-16 02:28:25,2022-08-16 02:28:26,0.854s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/input__id input""), 5)",Chrome 103.0.5060.134,로그인 화면 확인,,2022-08-16 02:28:26,2022-08-16 02:28:26,0.534s,PASSED
+"sendKeys(findTestObject(""Page_로그인 화면/input__id input""), ID)",Chrome 103.0.5060.134,id 입력 전역변수 활용,,2022-08-16 02:28:26,2022-08-16 02:28:27,0.871s,PASSED
+"sendKeys(findTestObject(""Page_로그인 화면/input__pw inpuut""), PW)",Chrome 103.0.5060.134,pw 입력 전역변수 활용,,2022-08-16 02:28:27,2022-08-16 02:28:28,0.919s,PASSED
+"click(findTestObject(""Page_로그인 화면/button_로그인 활성화""))",Chrome 103.0.5060.134,활성화된 로그인 버튼 선택,,2022-08-16 02:28:28,2022-08-16 02:28:29,0.883s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/span_홈""), 5)",Chrome 103.0.5060.134,병드민 홈 화면 진입 확인,,2022-08-16 02:28:29,2022-08-16 02:28:30,1.328s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/span_병원정보""), 5)",Chrome 103.0.5060.134,병원정보 확인,,2022-08-16 02:28:30,2022-08-16 02:28:31,0.356s,PASSED
+"click(findTestObject(""Page_병드민/span_병원정보""))",Chrome 103.0.5060.134,병원정보_병원정보 진입,,2022-08-16 02:28:31,2022-08-16 02:28:32,1.024s,PASSED
+"click(findTestObject(""Page_병드민/병원 정보/병원 정보_병원 공지사항/span_병원 공지사항""))",Chrome 103.0.5060.134,병원정보_공지사항 진입,,2022-08-16 02:28:32,2022-08-16 02:28:33,1.206s,PASSED
+"verifyElementPresent(findTestObject(""Page_/h1_공지사항 타이틀 문구""), 5)",Chrome 103.0.5060.134,"공지사항 타이틀 문구 확인
+",,2022-08-16 02:28:33,2022-08-16 02:28:34,0.577s,PASSED
+"verifyTextPresent(""똑닥 진우 테스트"", false)",Chrome 103.0.5060.134,똑닥 진우 테스트 노출 확인,,2022-08-16 02:28:34,2022-08-16 02:28:34,0.377s,PASSED
+"enhancedClick(findTestObject(""Page_/button_수정 버튼 (진우 테스트)""))",Chrome 103.0.5060.134,공지사항 수정 선택,,2022-08-16 02:28:34,2022-08-16 02:28:35,0.978s,PASSED
+"verifyElementPresent(findTestObject(""Page_/button_공지사항 등록_저장""), 5)",Chrome 103.0.5060.134,공지사항 저장 버튼 확인,,2022-08-16 02:28:35,2022-08-16 02:28:35,0.536s,PASSED
+"setText(findTestObject(""Page_/input__공지사항 제목 입력""), ""똑닥 진우 테스트 수정"")",Chrome 103.0.5060.134,공지사항 제목 수정본 입력,,2022-08-16 02:28:35,2022-08-16 02:28:37,1.944s,PASSED
+"setText(findTestObject(""Page_/textarea_공지사항 내용 입력""), ""똑닥 진우 테스트 내용 수정 ~~"")",Chrome 103.0.5060.134,공지사학 내용 입력,,2022-08-16 02:28:37,2022-08-16 02:28:39,2.007s,PASSED
+"click(findTestObject(""Page_/button_공지사항 등록_저장""))",Chrome 103.0.5060.134,공지사항 저장 버튼 선택,,2022-08-16 02:28:39,2022-08-16 02:28:40,1.036s,PASSED
+"verifyElementPresent(findTestObject(""Page_/button_저장2 알럿팝업 취소""), 5)",Chrome 103.0.5060.134,공지사항 저장 알럿 팝업 저장 버튼 확인,,2022-08-16 02:28:40,2022-08-16 02:28:41,0.428s,PASSED
+"verifyElementPresent(findTestObject(""Page_/button_저장2 알럿팝업 확인""), 5)",Chrome 103.0.5060.134,"공지사항 저장 알럿 팝업 취소 버튼 확인
+",,2022-08-16 02:28:41,2022-08-16 02:28:41,0.445s,PASSED
+"click(findTestObject(""Page_/button_저장2 알럿팝업 확인""))",Chrome 103.0.5060.134,공지사항 저장_저장 버튼 선택,,2022-08-16 02:28:41,2022-08-16 02:28:42,0.998s,PASSED
+"verifyTextPresent(""똑닥 진우 테스트 수정"", false)",Chrome 103.0.5060.134,수정된 공지사항 리스트 제목 확인,,2022-08-16 02:28:42,2022-08-16 02:28:43,0.698s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-16 02:28:43,2022-08-16 02:28:44,0.907s,PASSED
+,,,,,,,
+Test Cases/병원 정보_병원 공지사항_삭제,Chrome 103.0.5060.134,,,2022-08-16 02:28:44,2022-08-16 02:29:03,18.971s,PASSED
+openBrowser(URL),Chrome 103.0.5060.134,병드민 URL OPEN,,2022-08-16 02:28:45,2022-08-16 02:28:48,3.221s,PASSED
+maximizeWindow(),Chrome 103.0.5060.134,창 최대화,,2022-08-16 02:28:48,2022-08-16 02:28:48,0.131s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/button_login""), 5)",Chrome 103.0.5060.134,로그인 버튼 확인,,2022-08-16 02:28:48,2022-08-16 02:28:49,0.324s,PASSED
+"click(findTestObject(""Page_로그인 화면/button_login""))",Chrome 103.0.5060.134,로그인 버튼 선택,,2022-08-16 02:28:49,2022-08-16 02:28:50,0.878s,PASSED
+"verifyElementPresent(findTestObject(""Page_로그인 화면/input__id input""), 5)",Chrome 103.0.5060.134,로그인 화면 확인,,2022-08-16 02:28:50,2022-08-16 02:28:50,0.430s,PASSED
+"setText(findTestObject(""Page_로그인 화면/input__id input""), ID)",Chrome 103.0.5060.134,id 입력 전역변수 활용,,2022-08-16 02:28:50,2022-08-16 02:28:52,1.675s,PASSED
+"setText(findTestObject(""Page_로그인 화면/input__pw inpuut""), PW)",Chrome 103.0.5060.134,pw 입력 전역변수 활용,,2022-08-16 02:28:52,2022-08-16 02:28:53,1.727s,PASSED
+"click(findTestObject(""Page_로그인 화면/button_로그인 활성화""))",Chrome 103.0.5060.134,활성화된 로그인 버튼 선택,,2022-08-16 02:28:53,2022-08-16 02:28:54,0.912s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/span_홈""), 5)",Chrome 103.0.5060.134,병드민 홈 화면 진입 확인,,2022-08-16 02:28:54,2022-08-16 02:28:56,1.412s,PASSED
+"verifyElementPresent(findTestObject(""Page_병드민/span_병원정보""), 5)",Chrome 103.0.5060.134,병원정보 확인,,2022-08-16 02:28:56,2022-08-16 02:28:56,0.368s,PASSED
+"click(findTestObject(""Page_병드민/span_병원정보""))",Chrome 103.0.5060.134,병원정보_병원정보 진입,,2022-08-16 02:28:56,2022-08-16 02:28:57,1.011s,PASSED
+"click(findTestObject(""Page_병드민/병원 정보/병원 정보_병원 공지사항/span_병원 공지사항""))",Chrome 103.0.5060.134,병원정보_공지사항 진입,,2022-08-16 02:28:57,2022-08-16 02:28:58,1.198s,PASSED
+"verifyTextPresent(""똑닥 진우 테스트 수정"", false)",Chrome 103.0.5060.134,리스트 유무 확인,,2022-08-16 02:28:58,2022-08-16 02:28:59,0.602s,PASSED
+"enhancedClick(findTestObject(""Page_/button_삭제 버튼 (진우 테스트 수정)""))",Chrome 103.0.5060.134,삭제 버튼 선택,,2022-08-16 02:28:59,2022-08-16 02:29:00,1.041s,PASSED
+"verifyTextPresent(""공지사항을 삭제하시겠습니까?"", false)",Chrome 103.0.5060.134,공지사항 삭제 문구 확인,,2022-08-16 02:29:00,2022-08-16 02:29:00,0.569s,PASSED
+"click(findTestObject(""Page_/button_저장2 알럿팝업 확인""))",Chrome 103.0.5060.134,알럿 팝업 확인 선택,,2022-08-16 02:29:00,2022-08-16 02:29:02,1.051s,PASSED
+"verifyTextNotPresent(""똑닥 진우 테스트 수정"", false)",Chrome 103.0.5060.134,삭제된 리스트 유무 확인,,2022-08-16 02:29:02,2022-08-16 02:29:02,0.587s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,브라우저 닫기,,2022-08-16 02:29:02,2022-08-16 02:29:03,0.847s,PASSED
