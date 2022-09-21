@@ -46,6 +46,7 @@ import org.openqa.selenium.Keys as Keys
 
 
 
+
 '병원정보 확인'
 WebUI.verifyElementPresent(findTestObject('Page_병드민/hospital_info'), 5)
 
