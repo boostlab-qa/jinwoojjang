@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_trylogin</name>
+   <tag></tag>
+   <elementGuidId>4f842113-0625-494b-aa4c-f0d24eed5dc1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-rounded-outline.white</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5bf27124-bc66-4929-b1a0-680338ae6011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c1bceb77-0585-4a68-a57e-382b2150d166</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-rounded-outline white</value>
+      <webElementGuid>a8e23420-de22-4187-8001-3e6551f82dcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 병원관리자 로그인 </value>
+      <webElementGuid>be7c5239-8250-4063-8156-42c98ee6aff9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-sign-in-page[1]/app-signin-contents[1]/app-signin-header[1]/div[@class=&quot;gnb&quot;]/div[@class=&quot;voluntary_header&quot;]/div[@class=&quot;content-layout&quot;]/div[@class=&quot;content-wrap&quot;]/div[@class=&quot;inner&quot;]/div[@class=&quot;right-btn-group&quot;]/button[@class=&quot;btn-rounded-outline white&quot;]</value>
+      <webElementGuid>99cf4644-231d-44cc-98eb-a2d9ac51723d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>4e63d5dd-a47a-453d-bc3e-193d0bd3a1d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='무료로 시작하기'])[1]/preceding::button[1]</value>
+      <webElementGuid>8a8b26cf-e0c2-47ca-8900-78d067918a13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='병원관리자 로그인']/parent::*</value>
+      <webElementGuid>3313ae89-aead-42f1-981c-dd713f0dee6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>797bd288-7ae6-4a81-b8a2-f49225c7f354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' 병원관리자 로그인 ' or . = ' 병원관리자 로그인 ')]</value>
+      <webElementGuid>ce2d65e4-0ec3-4535-841e-a61f44a47f66</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

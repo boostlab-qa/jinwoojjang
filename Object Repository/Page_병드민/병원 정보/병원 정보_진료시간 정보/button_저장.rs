@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_저장</name>
+   <tag></tag>
+   <elementGuidId>5dc488a6-122d-473e-8396-84e5add75ec7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='취소'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.ha-btn.ha-btn-spec</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e02f8848-5efe-4fa3-b5f4-93ec6078abcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autoclose</name>
+      <type>Main</type>
+      <value>inside</value>
+      <webElementGuid>2ff65087-316b-4f09-8ef3-5447df5cbd7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placement</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>6e23aaf4-4d01-40ae-bfbc-1c93455bff70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>triggers</name>
+      <type>Main</type>
+      <value>manual</value>
+      <webElementGuid>b747a659-2202-4f4a-8e55-54ad6752c5c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn ha-btn ha-btn-spec</value>
+      <webElementGuid>7087eb33-bdfb-4348-97ca-e845849e8311</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 저장 </value>
+      <webElementGuid>e6688016-69ba-4421-8583-45e20f849ddf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-layout-container[1]/div[@class=&quot;main container-fluid scroll-x&quot;]/app-operating-time-set-page[1]/app-container-footer[1]/div[@class=&quot;container-footer d-flex&quot;]/div[@class=&quot;btn-wrap flex-shrink-1 text-right&quot;]/button[@class=&quot;btn ha-btn ha-btn-spec&quot;]</value>
+      <webElementGuid>0646daab-05ac-4b9b-b968-09eb58a672fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='취소'])[1]/following::button[1]</value>
+      <webElementGuid>ffe5f1fa-ad4b-4945-ba7b-6073e8dbec43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='설정 안 함'])[2]/following::button[2]</value>
+      <webElementGuid>caf7e0e2-4a43-4f43-910f-c2d492e14c93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='알림'])[1]/preceding::button[1]</value>
+      <webElementGuid>9978545b-3f4d-450b-9d23-2ecfd379ef6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='확인'])[1]/preceding::button[1]</value>
+      <webElementGuid>3f19bd99-0107-4977-8437-265f0e17ccab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='저장']/parent::*</value>
+      <webElementGuid>ac15997a-8feb-4e36-94da-6003ea6bee7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button[2]</value>
+      <webElementGuid>8e8e3419-830c-4c96-b22c-96549c1b6b91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' 저장 ' or . = ' 저장 ')]</value>
+      <webElementGuid>cd4ea7d5-388e-40de-9531-0463aba44ae4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

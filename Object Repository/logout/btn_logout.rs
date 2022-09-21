@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_logout</name>
+   <tag></tag>
+   <elementGuidId>d59bb97f-7146-41d0-8f13-a04e998de91a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='문자 발송 신청서'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>97669bb7-977e-4b79-8e79-9d0c29bd243b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>e46380e3-bb1c-4838-b8b5-df84531b4fb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 로그아웃 </value>
+      <webElementGuid>10b742aa-2390-47f2-9963-c90c2c0e8154</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-layout-container[1]/app-top-header[1]/h1[@class=&quot;navbar navbar-light top-header&quot;]/div[@class=&quot;dropdown-area&quot;]/div[@class=&quot;dropdown-inner&quot;]/div[@class=&quot;show dropdown&quot;]/div[@class=&quot;dropdown-menu dropdown-menu-right show&quot;]/button[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>b3fb78d9-f043-43b2-9c87-470808578fcb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='문자 발송 신청서'])[1]/following::button[1]</value>
+      <webElementGuid>453e871a-a562-4988-879d-4c4c3170a579</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='회원 정보 수정'])[1]/following::button[2]</value>
+      <webElementGuid>3950367c-4eec-449e-a115-10fc046c8100</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='홈'])[1]/preceding::button[2]</value>
+      <webElementGuid>32d62d41-4e47-45c7-9edc-51fabcbddf0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='병원 정보'])[1]/preceding::button[2]</value>
+      <webElementGuid>bf158bd9-581e-47f0-8065-ad9fa12f0843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='로그아웃']/parent::*</value>
+      <webElementGuid>3c20f6ef-8f5a-4f72-bee4-40c64e4b8826</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>a83dd5e6-a5e2-429b-9319-ef442982e4d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' 로그아웃 ' or . = ' 로그아웃 ')]</value>
+      <webElementGuid>5204860b-58c5-4f9d-a29e-e3f173d11c6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

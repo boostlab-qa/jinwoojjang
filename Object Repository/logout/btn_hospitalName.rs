@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_hospitalName</name>
+   <tag></tag>
+   <elementGuidId>2d11ef21-fbc3-4aff-885f-aeedb54c77cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.dropdown-toggle.ha-dropdown-toggle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cc9421a7-7aae-4d34-9ca7-d7735c34e89c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e779ce23-05e7-4ba8-a946-da7b8d5b362a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle ha-dropdown-toggle</value>
+      <webElementGuid>5fbc5141-c7c1-47b0-a41e-494684b537a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>eaf649da-cf71-4992-a700-13b3c840c6ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> [TEST] 코비병원 </value>
+      <webElementGuid>aadbee68-92a3-424b-aa87-f786a1842963</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-layout-container[1]/app-top-header[1]/h1[@class=&quot;navbar navbar-light top-header&quot;]/div[@class=&quot;dropdown-area&quot;]/div[@class=&quot;dropdown-inner&quot;]/div[@class=&quot;dropdown&quot;]/button[@class=&quot;dropdown-toggle ha-dropdown-toggle&quot;]</value>
+      <webElementGuid>f3db9dff-78ae-4744-9bd5-1ba5ce08eba4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>e3c62e21-5773-4357-8b43-9be913b07b03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='병원 어드민'])[1]/following::button[1]</value>
+      <webElementGuid>00347b45-401d-4e50-bf95-57d1e4a044f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='회원 정보 수정'])[1]/preceding::button[1]</value>
+      <webElementGuid>ab8b5f7a-e51a-41a7-adee-8cf73d7a95e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='문자 발송 신청서'])[1]/preceding::button[2]</value>
+      <webElementGuid>f508aba1-624e-4af1-b880-69f378e16750</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='[TEST] 코비병원']/parent::*</value>
+      <webElementGuid>503a115d-5f88-41e5-8233-6238268f0f3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>6501132d-d56c-4fb3-bc5e-c6c9611914bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' [TEST] 코비병원 ' or . = ' [TEST] 코비병원 ')]</value>
+      <webElementGuid>5bf34210-b249-44a7-bc35-adbd184aebdf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

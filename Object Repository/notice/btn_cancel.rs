@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_cancel</name>
+   <tag></tag>
+   <elementGuidId>ff1ac848-a434-407f-8435-ac19cc212c9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.ha-btn.ha-btn-secondary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(0/200)'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = ' 취소 ' or . = ' 취소 ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>23dbc3ba-824a-4178-b440-7fdca2044dc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ha-btn ha-btn-secondary</value>
+      <webElementGuid>2b1038c9-7401-488c-893c-73ea4193fbbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>3a51af2f-9845-4afc-a053-9ff9579ae2a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 취소 </value>
+      <webElementGuid>52f92dc6-20bd-410b-9577-393ed422b76f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-layout-container[1]/div[@class=&quot;main container-fluid scroll-x&quot;]/app-hospital-notice-set-page[1]/app-container-footer[1]/div[@class=&quot;container-footer d-flex&quot;]/div[@class=&quot;btn-wrap flex-shrink-1 text-right&quot;]/button[@class=&quot;ha-btn ha-btn-secondary&quot;]</value>
+      <webElementGuid>4925e3e2-3340-417a-8702-b79a18278cb5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0/200)'])[1]/following::button[1]</value>
+      <webElementGuid>9395a773-d611-4c9d-ae7b-f18451b31dc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0/20)'])[1]/following::button[1]</value>
+      <webElementGuid>8f3a6442-3be4-47f8-9994-bad7cecc0140</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='저장'])[1]/preceding::button[1]</value>
+      <webElementGuid>205dc3fd-99a6-41bd-a9c4-53efbae22e84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='알림'])[1]/preceding::button[2]</value>
+      <webElementGuid>1ab4ffd6-7bb3-4b22-a980-f0bc039b941c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='취소']/parent::*</value>
+      <webElementGuid>44a87a77-c9b1-48df-acb1-0c6357bf7cbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>1dc96511-9763-45f3-9eb1-3f8e73ebf6a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' 취소 ' or . = ' 취소 ')]</value>
+      <webElementGuid>bb040343-aa51-4032-bf7c-475e1bfb5a20</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>notice_btn_saveCancel</name>
+   <tag></tag>
+   <elementGuidId>aecc9847-a8ab-4d8a-9206-c04ab2e662ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>footer.ham-footer > button.ha-btn.ha-btn-secondary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7dad23e9-afb0-4a63-823e-a8e8d805796a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>47a50e1c-8fe4-45db-ae17-8a9315f1c4ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ha-btn ha-btn-secondary</value>
+      <webElementGuid>8b621f95-7624-45e8-8117-7fd498abc873</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 취소 </value>
+      <webElementGuid>2ded5ad3-2dff-4349-a8aa-e0aab7a2fb67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-alert-modal[1]/div[@class=&quot;ham-overlay ham-show&quot;]/div[@class=&quot;ham-inner-t&quot;]/div[@class=&quot;ham-inner-c&quot;]/div[@class=&quot;ham-section&quot;]/footer[@class=&quot;ham-footer&quot;]/button[@class=&quot;ha-btn ha-btn-secondary&quot;]</value>
+      <webElementGuid>e7c36078-bd1e-450c-9af2-2d2adb6cb28b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>e97e0043-4020-493a-8108-f3c46ae23e06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='공지사항을 등록하시겠습니까?'])[1]/following::button[1]</value>
+      <webElementGuid>f9e8d064-a0a5-4f5a-88f7-2ca922acc506</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='알림'])[1]/following::button[1]</value>
+      <webElementGuid>655f67e7-1f9f-4c86-8db6-4ad4c5672840</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='확인'])[1]/preceding::button[1]</value>
+      <webElementGuid>73096c89-eb8a-4147-a820-530f17f93956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='확인'])[2]/preceding::button[3]</value>
+      <webElementGuid>55501978-4989-4530-9792-eda4c92622e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/button</value>
+      <webElementGuid>4142e6c5-7482-4fbb-9401-4fec01f444d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' 취소 ' or . = ' 취소 ')]</value>
+      <webElementGuid>74901968-eff1-4331-91e1-4f3f05d62017</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

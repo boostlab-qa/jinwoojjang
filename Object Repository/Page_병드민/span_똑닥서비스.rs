@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_똑닥서비스</name>
+   <tag></tag>
+   <elementGuidId>f8372155-0c9c-4d2f-84ba-a838fa1959cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='푸시 발송 제외 내역'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7743d6d4-2abd-4038-b668-cbc208fa4eb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>type-name</value>
+      <webElementGuid>be982303-4f66-496d-aeef-9c46d1bb31fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>똑닥서비스</value>
+      <webElementGuid>c7c6127a-f103-45c8-8594-6aa75ce1258a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-layout-container[1]/app-side-menu[1]/div[@class=&quot;nav-wrap&quot;]/nav[1]/app-side-menu-list[1]/div[1]/ul[@class=&quot;list-unstyled main-menu&quot;]/div[5]/app-side-menu-item[1]/li[1]/div[@class=&quot;side-menu-item-wrap&quot;]/a[@class=&quot;side-menu-item&quot;]/span[@class=&quot;type-name&quot;]</value>
+      <webElementGuid>7f952d39-b923-43cd-8794-a565053eb8e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='푸시 발송 제외 내역'])[1]/following::span[1]</value>
+      <webElementGuid>f00a2e07-61c5-4f2f-8b50-c973bbe739b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='푸시 발송 결과 내역'])[1]/following::span[2]</value>
+      <webElementGuid>cc321ff4-685c-45a2-9e20-c9b6720973d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='똑닥 접수 ∙ 예약'])[1]/preceding::span[2]</value>
+      <webElementGuid>24ea001e-9adc-4417-b023-ed71a61c0a19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='똑닥서비스']/parent::*</value>
+      <webElementGuid>27edaf89-09cc-4bdc-8a08-d3c22d897f13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/app-side-menu-item/li/div/a/span</value>
+      <webElementGuid>95041b4f-f49c-44dc-92bb-3161706008cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '똑닥서비스' or . = '똑닥서비스')]</value>
+      <webElementGuid>f9407879-c130-48cf-bfe4-dc9eed031867</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

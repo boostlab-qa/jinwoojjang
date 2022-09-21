@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_병원정보 타이틀</name>
+   <tag></tag>
+   <elementGuidId>90cae11c-0a63-4bb5-af67-23c90edbc0fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '병원 정보' or . = '병원 정보')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.d-inline-block.h4.sub-menu > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1e5b801c-7cb5-46dd-a3f4-75fa7b690091</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>병원 정보</value>
+      <webElementGuid>ec963f96-767e-4de3-a81e-6fcafcf8f596</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-layout-container[1]/div[@class=&quot;main container-fluid scroll-x&quot;]/app-hospital-info-container[1]/div[1]/app-page-title[1]/div[@class=&quot;container&quot;]/div[@class=&quot;container-header&quot;]/h1[@class=&quot;d-inline-block h4 sub-menu&quot;]/span[1]</value>
+      <webElementGuid>02c95685-b26a-4e3f-b4a0-043f121dd1d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>ef2c0490-cc37-4295-959c-bfb06265f21f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>317908aa-4192-458b-91ea-e76638ea4105</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/ 병원 정보'])[1]/preceding::span[1]</value>
+      <webElementGuid>70bb342a-587c-400e-a097-c529be468f59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>bd4786dc-5ee1-40a8-992d-a064c14a45fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>f24281b3-c34a-4306-9c8a-5e1bd9cc4714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '병원 정보' or . = '병원 정보')]</value>
+      <webElementGuid>c7186b1d-7ce4-4e7f-bd2b-6846f437ef80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
