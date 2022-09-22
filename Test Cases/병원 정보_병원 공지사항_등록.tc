@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>병원 정보_병원 공지사항_등록 (복원)</name>
+   <name>병원 정보_병원 공지사항_등록</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>40909158-3e94-49ab-880f-9056bc82662f</testCaseGuid>
