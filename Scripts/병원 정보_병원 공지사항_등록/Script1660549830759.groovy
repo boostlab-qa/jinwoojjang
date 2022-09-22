@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 //'병드민 URL OPEN'
 //WebUI.openBrowser(GlobalVariable.URL)
 //
+
 //'창 최대화'
 //WebUI.maximizeWindow()
 //
