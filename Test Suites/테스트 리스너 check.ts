@@ -15,7 +15,7 @@
       <guid>be1a8454-edc8-4e7d-8c88-4fb630f19f06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/병원 정보_병원 공지사항_등록</testCaseId>
+      <testCaseId>Test Cases/병원 정보_병원 공지사항_등록 (복원)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
